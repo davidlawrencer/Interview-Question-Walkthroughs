@@ -63,21 +63,3 @@ func singleNumberManipulatingBits(_ arr: [Int]) -> Int {
     }
     return result
 }
-
-func checkValidString(_ s: String) -> Bool {
-    let infoSets: [(leadCharacter: Character,letters: String)] = [("(",s),(")",String(s.reversed()))]
-    for set in infoSets {
-        var count = 0
-        for i in set.letters {
-            if i == set.leadCharacter || i == "*" {
-                count += 1
-            } else {
-                count -= 1
-            }
-            if count < 0 {return false}
-        }
-    }
-    return true
-}
-
-print(checkValidString("(*)"))
