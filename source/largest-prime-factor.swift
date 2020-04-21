@@ -72,6 +72,16 @@ func largestPrimeFactor(of num: Int) -> Int {
         }
     }
     return 0
+    
+    // note: we can reduce the operations by only looking at half the input.
+    /*
+     guard !num.isPrime else {return num}
+     for i in (2..<num/2).reversed() {
+         if num % i == 0 && i.isPrime {
+             return i
+         }
+     }
+     */
 }
 
 largestPrimeFactor(of: num)
