@@ -57,7 +57,7 @@ assert(singleNumberSetSolution(inputTwo) == 4)
 
 func singleNumberManipulatingBits(_ arr: [Int]) -> Int {
     var result = 0
-    // "Exclusive OR" or XOR operator -> wut???
+    // "Exclusive OR" or XOR operator -> wut??? Bitwise Manipulation: https://en.wikipedia.org/wiki/Bitwise_operation
     for i in arr {
         result ^= i
     }
