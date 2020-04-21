@@ -8,3 +8,5 @@
 [Single Number](./source/single-number.swift)
 
 [Happy Number](./source/happy-number.swift)
+
+[Largest Prime Factor](./source/largest-prime-factor.swift)
