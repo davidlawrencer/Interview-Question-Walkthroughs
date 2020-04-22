@@ -10,3 +10,5 @@
 [Happy Number](./source/happy-number.swift)
 
 [Largest Prime Factor](./source/largest-prime-factor.swift)
+
+[TwoSum](./source/two-sum.swift)
