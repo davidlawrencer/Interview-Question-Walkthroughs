@@ -12,3 +12,5 @@
 [Largest Prime Factor](./source/largest-prime-factor.swift)
 
 [TwoSum](./source/two-sum.swift)
+
+[Palindrome](./source/palindrome.swift)
