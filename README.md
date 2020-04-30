@@ -16,3 +16,8 @@
 [Palindrome](./source/palindrome.swift)
 
 [Linked List Challenge](./source/linked-list-implementations-and-notes.swift)
+
+
+## Below are projects involving a bit more logic
+
+[Sudoku Validator](./source/sudoku-validator.swift)
